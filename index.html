@@ -17,6 +17,9 @@
             color: #fff;
             padding: 10px 0;
             text-align: center;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
         }
         nav {
             margin: 20px 0;
@@ -24,7 +27,12 @@
         nav a {
             margin: 0 15px;
             text-decoration: none;
-            color: #007bff;
+            color: #fff;
+            font-weight: bold;
+            transition: color 0.3s;
+        }
+        nav a:hover {
+            color: #ffd700; /* Color al pasar el mouse */
         }
         section {
             background: #fff;
